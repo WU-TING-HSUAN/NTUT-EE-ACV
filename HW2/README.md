@@ -35,8 +35,6 @@ the length and orientation of the longest axis
 ### Discussion:
 **(無使用opencv程式碼)**
 
-我將它分為五大部份，第一部分為讀檔，第二部分為開設三維陣列，第三部分為將bmp值儲存至陣列裡，第四部份為運算(rotation、changecolor、bonus)，第五部份為寫入。
-
 **一、 Connected components**
 
 我使用的 connected components 是老師上課教學的第二種方法，也就是不斷的去掃描尋找關係，而我起初先開了一張圖片轉二值化之後先掃描一次，只要它的左邊上面沒有標籤那就把當作新如果面有標籤，就把覆蓋過去這樣掃完一遍之後我可以得到張擁不同標籤的圖片(圖一)。
